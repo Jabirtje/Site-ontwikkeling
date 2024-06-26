@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    background-color: #000563;
+    color: white;
+    justify-content:space-between;
+    padding: 8px;
+    height: 40px;
+}
+
+.logo img {
+    height: 40px;
+    
+}
+.logo {
+    margin-left: 8px;
+}
+
+nav {
+    display: flex;
+}
+
+nav div {
+    display: flex;
+    margin-right: 20px;
+    text-align: left;
+    align-items: center;
+        
+}
+
+nav div img {
+    height: 35px;
+    margin-right: 10px; 
+}
+
+nav div:last-child img {
+    margin-right: 0; 
+
+}
+
+.profiel img{
+    height: 35px;
+    width: 35px;
+    border-radius: 100%;
+
+}
+
+#feedback {
+    background-color: white;
+    color: #57be8e;
+    padding-right: 20px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+#rechts {
+display: flex;
+width: 350px;
+align-items: center;
+justify-content: space-between;
+}
+
+#credit {
+    display: flex;
+    align-items: center;
+
+}
+
+
+#indeling {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#sidebar {
+    max-width: 300px;
+    margin-left: 50px;
+    box-shadow: 2px 2px 4px #888888;
+    padding: 30px;
+    font-size: 24px;
+}
+
+#sidebar img {
+    max-width: 250px;
+}
+
+table td {
+border-bottom: 1px solid rgb(178, 178, 178);
+
+}
+
+table{
+    box-shadow: 2px 2px 4px #888888;
+    border-collapse: collapse;
+
+}
+
+td {
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+button {
+
+    background-color: #56bd8d;
+    color: white;
+    box-shadow: 1px 1px 0px;
+    border:none; 
+    padding: 10px;
+    width: 60px;
+    border-radius: 5px;
+}
+
+th {
+    text-align: left;
+    color: rgb(178, 178, 178);
+}
+
+#level {
+    display: flex;
+    background-color: #86dae4;
+    width: 175px;
+    height: 25px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
